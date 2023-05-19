@@ -1,0 +1,56 @@
+.body{
+    /* text-align: center; */
+    width: 40%;
+    border: 2px solid pink;
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 10%;
+    height: 500px;
+    background-image: url(background.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#question p{
+    margin-top: 20%;
+    margin-left: 18%;
+}
+button{
+    margin-top: 1%;
+    margin-left: 47%;
+    background-color: black;
+    color: white;
+    box-shadow: inset 5px 3px 7px black,-5px 3px 7px black;
+    border: none;
+    font-size: 23px;
+    font-weight: bolder;
+}
+input[type="radio"]{
+    margin-left: 25%;
+}
+p, label{
+    font-weight: bolder;
+    /* text-shadow: 5px 5px 3px red, -6px 5px 3px orange; */
+    color: white;
+    font-size: 23px;
+    text-shadow: 3px 5px 7px red,-5px 4px 6px gold;
+}
+h1{
+    text-shadow: 5px 5px 3px red, -6px 5px 3px orange;
+    /* margin-left: 30%; */
+    color: white;
+    text-align: center;
+}
+#question #score{
+    color: lime;
+    font-size: 30px;
+    text-align: center;
+    margin-left: 0px;
+    margin-top: 0%;
+}
+h2{
+    text-align: center;
+    text-shadow: 5px 5px 3px red, -6px 5px 3px orange;
+    color: white;
+    font-style: italic;
+}
